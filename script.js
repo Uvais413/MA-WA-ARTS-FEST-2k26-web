@@ -8,12 +8,7 @@ for(let i=0; i<25; i++){
     document.body.appendChild(light);
 }
 
-// 2. Logic for Lunging (Landing) Page
-window.addEventListener('load', function() {
-    const landingPage = document.getElementById('landing-page');
-    
-    // Wait for 20 seconds (20000 milliseconds)
-    setTimeout(function() {
-        landingPage.classList.add('hidden');
-    }, 20000); 
+// 2. Menu toggle for mobile
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('active');
 });
