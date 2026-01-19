@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MA'WA ARTS FEST 2k26</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-       
+         
+<div id="landing-page">
+    <div class="loader-wrapper">
+        <div class="ring"></div>
+        <img src="img/logo 3.jpeg" alt="Logo" class="pulsing-logo">
+    </div>
+    <h1 class="loading-text">MA'WA ARTS FEST 2K26</h1>
+    <div class="loading-bar"><span></span></div> 
+      
+    <button id="enter-btn">Skip</button> 
+</div>
+
     <header>
         <img src="img/logo 3.jpeg" alt="MA'WA ARTS FEST 2k26 Logo">
         <h1>MA'WA ARTS FEST 2k26</h1>
@@ -15,11 +27,12 @@
     </header>
 
     <nav id="navbar">
-        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
         <ul>
             <li><a href="#guests">Guests</a></li>
             <li><a href="#posters">Posters</a></li>
             <li><a href="#video">Videos</a></li>
+            <li><a href="#quick-links">Quick Links</a></li>
             <li><a href="#committee">Committee</a></li>
             <li><a href="#feedback">Feedback</a></li>
         </ul>
@@ -58,13 +71,34 @@
         </div>
     </section>
 
-    <section class="buttons">
-        <a href="img/FEST Handbook.pdf" target="_blank"><button class="btn">Fest 2k25 MANUAL</button></a>
-        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8wWkLn-vPmd6PeXRGIVtVEM89_8Q0etbWkX5LxogCksNdEBiZmhe-VqjzgTzkdT7MM5b00JtL_eIK/pubhtml?gid=405170445&single=true" target="_blank"><button class="btn">Get Result</button></a> 
-        <a href="https://forms.gle/sKkxHKbPogyjJgdr8" target="_blank"><button class="btn"> APPEAL FORM	</button></a>
-        <a href="https://forms.gle/87MmswVZDDc2A3YP8" target="_blank"><button class="btn"> Replacement Forum </button></a>
-        <a href="https://drive.google.com/drive/folders/1EYCcxduENUzR6XRl7kGwrm6cxIXzW_MG" target="_blank"><button class="btn"> Fest Photos ( Off Stage)</button></a>
-        <a href="https://drive.google.com/drive/folders/152256QwULkhsUIB4Olvt6d8JIwrJqVvU" target="_blank"><button class="btn"> Fest Photos ( On Stage )</button></a>
+    <section id="quick-links">
+        <h2>Quick Links</h2>
+        <div class="quick-links">
+            <a href="img/FEST Handbook.pdf" target="_blank" class="link-card">
+                <div class="icon">📄</div>
+                <span>Fest 2k25 MANUAL</span>
+            </a>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8wWkLn-vPmd6PeXRGIVtVEM89_8Q0etbWkX5LxogCksNdEBiZmhe-VqjzgTzkdT7MM5b00JtL_eIK/pubhtml?gid=405170445&single=true" target="_blank" class="link-card">
+                <div class="icon">📊</div>
+                <span>Get Result</span>
+            </a>
+            <a href="https://forms.gle/sKkxHKbPogyjJgdr8" target="_blank" class="link-card">
+                <div class="icon">📝</div>
+                <span>Appeal Form</span>
+            </a>
+            <a href="https://forms.gle/87MmswVZDDc2A3YP8" target="_blank" class="link-card">
+                <div class="icon">🔄</div>
+                <span>Replacement Form</span>
+            </a>
+            <a href="https://drive.google.com/drive/folders/1EYCcxduENUzR6XRl7kGwrm6cxIXzW_MG" target="_blank" class="link-card">
+                <div class="icon">📸</div>
+                <span>Fest Photos (Off Stage)</span>
+            </a>
+            <a href="https://drive.google.com/drive/folders/152256QwULkhsUIB4Olvt6d8JIwrJqVvU" target="_blank" class="link-card">
+                <div class="icon">🎤</div>
+                <span>Fest Photos (On Stage)</span>
+            </a>
+        </div>
     </section>
 
     <section id="committee">
@@ -95,6 +129,8 @@
         <p>Designed by 
         <a href="https://wa.me/917025560027?text=Hi,%20I%20am%20from%20MA'WA%20ARTS%20FEST%202K26%20Website"><strong>Mohammed Uvais A.P</strong></a></p>
     </footer>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
 
     <script src="script.js"></script>
 
